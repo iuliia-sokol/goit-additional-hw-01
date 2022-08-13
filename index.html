@@ -5,36 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Britlex Language School</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles/reset.css" />
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
     <!-- Header -->
     <header>
-      <nav>
-        <!-- Logo -->
-        <a href="./index.html">Britlex</a>
-        <!-- Navigation -->
-        <ul>
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#about-us">About Us</a></li>
-          <li><a href="#pricing">Pricing</a></li>
-          <li><a href="#contacts">Contacts</a></li>
-        </ul>
-      </nav>
-      <!-- Lets talk form-->
-      <button type="button">Let’s Talk</button>
+      <div class="header-all">
+        <nav>
+          <!-- Logo -->
+          <div>
+            <a href="./index.html"><span class="logo-dark">Brit</span><span class="logo-light">lex</span></a>
+          </div>
+          <!-- Navigation -->
+          <div>
+            <ul>
+              <li>
+                <a href="./index.html"><span class="navigation-text">Home</span></a>
+              </li>
+              <li>
+                <a href="#skills"><span class="navigation-text">Skills</span></a>
+              </li>
+              <li>
+                <a href="#about-us"><span class="navigation-text">About Us</span></a>
+              </li>
+              <li>
+                <a href="#pricing"><span class="navigation-text">Pricing</span></a>
+              </li>
+              <li>
+                <a href="#contacts"><span class="navigation-text">Contacts</span></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!-- Lets talk button-->
+        <div>
+          <button type="button" class="lets-talk-btn"><span class="lets-talk-btn-text">Let’s Talk</span></button>
+        </div>
+      </div>
     </header>
     <!-- Main part -->
     <main>
       <!-- Hero section -->
       <section>
-        <h1>Learn Any Foreign Language</h1>
-        <p>With our teachers who write a program for each student, you will be able to make your first sketch after the first lesson.</p>
+        <h1 class="hero-header-text">Learn Any Foreign Language</h1>
+        <p class="hero-main-text">
+          With our teachers who write a program for each student, you will be able to make your first sketch after the first lesson.
+        </p>
         <!-- Get Started Form-->
-        <button type="button">Get started</button>
+        <button type="button" class="get-started-btn"><span class="get-started-btn-text">Get started</span></button>
         <!-- Hero image -->
-        <img src="./images/learning-languages.jpg" alt="A girl learning languages" width="660" height="660" />
+        <img src="./images/learning-languages.png" alt="A girl learning languages" width="660" height="660" />
       </section>
       <!-- Skills section -->
       <section id="skills">
@@ -42,7 +66,7 @@
         <ul>
           <!-- Speaking -->
           <li>
-            <img src="./images/speaking.jpg" alt="People exchanging opinions" width="390" height="390" />
+            <img src="./images/speaking.png" alt="People exchanging opinions" width="390" height="390" />
             <h3>Speaking</h3>
             <p>Improve your English skills and confidence. Live classes and interactive lessons online. 20% extra free for a limited time only</p>
             <p>
@@ -52,21 +76,21 @@
           </li>
           <!-- Writing -->
           <li>
-            <img src="./images/writing.jpg" alt="Someone typing text" width="292" height="292" />
+            <img src="./images/writing.png" alt="Someone typing text" width="292" height="292" />
             <h3>Writing</h3>
             <p>One of the most important and extensive areas of natural science, the science that studies substances, also their composition</p>
             <a href="#">Learn more</a>
           </li>
           <!-- Reading -->
           <li>
-            <img src="./images/reading.jpg" alt="A man reading a book on a sofa" width="370" height="246" />
+            <img src="./images/reading.png" alt="A man reading a book on a sofa" width="370" height="246" />
             <h3>Reading</h3>
             <p>perception and response actions of the user resulting from the use and/or upcoming use of the product, system or service</p>
             <a href="#">Learn more</a>
           </li>
           <!-- Listening -->
           <li>
-            <img src="./images/listening.jpg" alt="A guy listening to a podcast" width="382" height="254" />
+            <img src="./images/listening.png" alt="A guy listening to a podcast" width="382" height="254" />
             <h3>Listening</h3>
             <p>Here you can find activities to practise your listening skills. Listening will help you to improve your understanding</p>
             <a href="#">Learn more</a>
@@ -96,7 +120,7 @@
             <p>Foreign languages</p>
           </li>
         </ul>
-        <img src="./images/achievements.jpg" alt="People climbimg to the top of the mountain" width="500" height="500" />
+        <img src="./images/achievements.png" alt="People climbimg to the top of the mountain" width="500" height="500" />
       </section>
       <!-- Pricing section -->
       <section id="pricing">
@@ -104,21 +128,21 @@
         <ul>
           <!-- Package 1 -->
           <li>
-            <img src="./images/studying-online.jpg" alt="A man studying online" width="310" height="310" />
+            <img src="./images/studying-online.png" alt="A man studying online" width="310" height="310" />
             <h3>Self-study online course</h3>
             <p>Start learning English online in live classes with qualified EC teachers and students from all over the world.</p>
             <p><span>&pound;5.99</span> per month</p>
           </li>
           <!-- Package 2 -->
           <li>
-            <img src="./images/online-lesson.jpg" alt="A man attending an online class" width="390" height="282" />
+            <img src="./images/online-lesson.png" alt="A man attending an online class" width="390" height="282" />
             <h3>Live online classes</h3>
             <p>Interactive group classes with expert teachers. Free 7-day trial</p>
             <p><span>&pound;12.99</span> per month</p>
           </li>
           <!-- Package 3 -->
           <li>
-            <img src="./images/tuition.jpg" alt="A woman listening to a tuitor online" width="340" height="340" />
+            <img src="./images/tuition.png" alt="A woman listening to a tuitor online" width="340" height="340" />
             <h3>Personal Tuition</h3>
             <p>Online one-to-one English tutoring – enjoy our first session for only $1</p>
             <p><span>&pound;20.99</span> per month</p>
@@ -136,13 +160,13 @@
           <input name="User email" required type="email" placeholder="Enter Your E-mail" />
           <input type="submit" value="Subscribe" />
         </form>
-        <img src="./images/subscribe.jpg" alt="A girl with a paper plane" width="476" height="428" />
+        <img src="./images/subscribe.png" alt="A girl with a paper plane" width="476" height="428" />
       </section>
     </main>
     <!-- Page footer -->
     <footer>
       <!-- Logo -->
-      <a href="./index.html">Britlex</a>
+      <a href="./index.html"><span class="logo-dark">Brit</span><span class="logo-light">lex</span></a>
       <!-- Navigation -->
       <ul>
         <li><a href="#">Terms and Conditions</a></li>
