@@ -166,7 +166,7 @@ h3 {
 .learn-more-link-container:hover {
   background-color: lightskyblue;
 }
-.learn-more-link-text:focus {
+.learn-more-link:focus {
   background-color: lightskyblue;
 }
 .learn-more-link-text {
@@ -238,6 +238,14 @@ form {
   line-height: 24px;
   color: #8f95a5;
   padding-left: 32px;
+}
+.subscribe-form-input:hover {
+  border-width: 2px;
+  border-color: lightskyblue;
+}
+.subscribe-form-input:focus {
+  border-width: 2px;
+  border-color: lightskyblue;
 }
 .subscribe-form-confirm-btn {
   background: #263238;
