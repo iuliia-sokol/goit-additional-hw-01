@@ -1,4 +1,4 @@
-html {
+body {
   font-family: "Poppins", sans-serif;
 }
 .all-page {
@@ -80,8 +80,14 @@ h3 {
   cursor: pointer;
 }
 .lets-talk-btn:hover {
+  background-color: lightskyblue;
 }
-
+.lets-talk-btn:focus {
+  background-color: lightskyblue;
+}
+.lets-talk-btn:active {
+  background-color: yellow;
+}
 .lets-talk-btn-text {
   font-style: normal;
   font-weight: 400;
@@ -118,6 +124,13 @@ h3 {
   background: #263238;
   border-radius: 15px;
   padding: 32px 118px;
+  cursor: pointer;
+}
+.get-started-btn:hover {
+  background-color: lightskyblue;
+}
+.get-started-btn:focus {
+  background-color: lightskyblue;
 }
 .get-started-btn-text {
   font-style: normal;
@@ -148,6 +161,13 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+}
+.learn-more-link-container:hover {
+  background-color: lightskyblue;
+}
+.learn-more-link-text:focus {
+  background-color: lightskyblue;
 }
 .learn-more-link-text {
   font-style: normal;
@@ -229,8 +249,14 @@ form {
   font-size: 20px;
   line-height: 30px;
   color: #ffffff;
+  cursor: pointer;
 }
-
+.subscribe-form-confirm-btn:hover {
+  background-color: lightskyblue;
+}
+.subscribe-form-confirm-btn:focus {
+  background-color: lightskyblue;
+}
 /* Footer section */
 .footer-all {
   display: flex;
