@@ -25,13 +25,27 @@ h3 {
 .header-all {
   display: flex;
   justify-content: space-between;
-  align-items: stretch;
+
   margin-top: 58px;
 }
 .navigation-items {
   display: flex;
   justify-content: space-between;
+  align-items: stretch;
 }
+.logo {
+  width: 106px;
+  height: 54px;
+}
+.navigation-list {
+  display: flex;
+  text-align: end;
+  list-style: none;
+}
+.navigation-list-item {
+  margin: 0 20px;
+}
+
 /* Logo */
 .logo-dark {
   font-style: normal;
@@ -63,6 +77,9 @@ h3 {
   background-color: white;
   cursor: pointer;
 }
+.lets-talk-btn:hover {
+}
+
 .lets-talk-btn-text {
   font-style: normal;
   font-weight: 400;
@@ -200,6 +217,12 @@ h3 {
   padding-top: 30px;
   padding-bottom: 48px;
   border-top: #c4c4c4;
+  border-style: inset;
+  border-color: #c4c4c4;
+}
+.footer-links-list {
+  display: flex;
+  list-style: none;
 }
 .footer-text {
   font-family: "Poppins";
