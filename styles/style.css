@@ -13,6 +13,7 @@ h2 {
   font-size: 48px;
   line-height: 80px;
   color: #000000;
+  margin-bottom: 38px;
 }
 h3 {
   font-style: normal;
@@ -20,6 +21,7 @@ h3 {
   font-size: 30px;
   line-height: 48px;
   color: #263238;
+  margin-bottom: 20px;
 }
 /* Header */
 .header-all {
@@ -156,6 +158,13 @@ h3 {
 }
 
 /* About section */
+\ .achievement-subheader {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 80px;
+  color: #2a3246;
+  margin-bottom: 28px;
+}
 .description-text {
   font-family: "Poppins";
   font-style: normal;
@@ -175,6 +184,7 @@ h3 {
   width: 240px;
   height: 45px;
   text-align: center;
+  margin-top: 30px;
 }
 .price-per-month {
   font-style: normal;
@@ -192,6 +202,9 @@ h3 {
 }
 
 /* Subscription form */
+form {
+  margin-top: 52px;
+}
 .subscribe-form-input {
   width: 450px;
   height: 80px;
@@ -223,7 +236,7 @@ h3 {
   display: flex;
   justify-content: space-between;
   align-items: stretch;
-  padding-top: 30px;
+  padding-top: 54px;
   padding-bottom: 48px;
   border-top: #c4c4c4;
   border-style: inset;
