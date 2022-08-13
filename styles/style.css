@@ -101,6 +101,7 @@ h3 {
   font-size: 64px;
   line-height: 80px;
   color: #000000;
+  margin-bottom: 40px;
 }
 /* Hero text */
 .hero-main-text {
@@ -127,7 +128,7 @@ h3 {
 .skills-header {
   text-align: center;
 }
-.description-text {
+.skills-description-text {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
@@ -155,6 +156,14 @@ h3 {
 }
 
 /* About section */
+.description-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #8f95a5;
+}
 
 /* Pricing section */
 .pricing-header {
