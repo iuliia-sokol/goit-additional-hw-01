@@ -109,13 +109,9 @@ h3 {
   margin-top: 48px;
   margin-bottom: 102px;
   display: flex;
-  flex-direction: column;
-}
-.hero-section-left-column {
-  width: 50%;
-}
-.hero-section-right-column {
-  width: 50%;
+  flex-direction: row;
+  justify-content: space-between;
+  /* cursor: */
 }
 /* Hero header */
 .hero-header-text {
