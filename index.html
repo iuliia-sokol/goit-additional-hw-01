@@ -12,10 +12,10 @@
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
-    <div class="all-page">
+    <div class="page-container">
       <!-- Header -->
       <header>
-        <div class="header-all">
+        <div class="header-container">
           <nav class="navigation-items">
             <!-- Logo -->
             <div class="logo">
@@ -50,16 +50,22 @@
       <!-- Main part -->
       <main>
         <!-- Hero section -->
-        <section class="hero-section">
-          <h1 class="hero-header-text">Learn Any Foreign Language</h1>
-          <p class="hero-main-text">
-            With our teachers who write a program for each student, you will be able to make your first sketch after the first lesson.
-          </p>
-          <!-- Get Started Form-->
-          <button type="button" class="get-started-btn"><span class="get-started-btn-text">Get started</span></button>
-          <!-- Hero image -->
-          <img src="./images/learning-languages.png" alt="A girl learning languages" width="660" height="660" />
-        </section>
+        <div class="hero-section-container">
+          <section>
+            <div class="hero-section-left-column">
+              <h1 class="hero-header-text">Learn Any Foreign Language</h1>
+              <p class="hero-main-text">
+                With our teachers who write a program for each student, you will be able to make your first sketch after the first lesson.
+              </p>
+              <!-- Get Started Form-->
+              <button type="button" class="get-started-btn"><span class="get-started-btn-text">Get started</span></button>
+            </div>
+            <!-- Hero image -->
+            <div class="hero-section-right-column">
+              <img src="./images/learning-languages.png" alt="A girl learning languages" width="660" height="660" />
+            </div>
+          </section>
+        </div>
         <!-- Skills section -->
         <section id="skills">
           <h2 class="skills-header">Skills</h2>
