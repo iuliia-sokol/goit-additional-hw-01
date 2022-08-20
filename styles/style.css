@@ -1,5 +1,18 @@
+:root {
+  --accent-color: lightskyblue;
+}
+
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
 body {
   font-family: "Poppins", sans-serif;
+  margin: 0;
 }
 .page-container {
   padding: 0 10%;
@@ -45,24 +58,20 @@ h3 {
   height: 54px;
 }
 .logo-dark {
-  font-style: normal;
-  font-weight: 400;
   font-size: 36px;
   line-height: 54px;
   color: #000000;
 }
 .logo-light {
-  font-style: normal;
-  font-weight: 400;
   font-size: 36px;
   line-height: 54px;
   color: #939393;
 }
 .logo-light:hover {
-  color: lightskyblue;
+  color: var(--accent-color);
 }
 .logo > a:focus {
-  background-color: lightskyblue;
+  background-color: var(--accent-color);
 }
 /* Navigation */
 .navigation-list-container {
@@ -78,46 +87,40 @@ h3 {
   margin: 0 20px;
 }
 .navigation-text {
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 30px;
+  line-height: 1.5;
   color: #263238;
 }
 .navigation-text:hover {
-  color: lightskyblue;
+  color: var(--accent-color);
 }
 .navigation-list-item > a:focus {
-  background-color: lightskyblue;
+  background-color: var(--accent-color);
 }
 /* Lets talk button */
 
 .lets-talk-btn {
-  padding: 16px 56px;
+  padding: 17px 57px;
   border: 2px solid #263238;
   border-radius: 5px;
-  max-width: 220px;
-  max-height: 70px;
   background-color: white;
+  max-height: 70px;
+  font-family: inherit;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
   cursor: pointer;
 }
-.lets-talk-btn:hover {
-  background-color: lightskyblue;
-}
+.lets-talk-btn:hover,
 .lets-talk-btn:focus {
-  background-color: lightskyblue;
+  background-color: var(--accent-color);
 }
 .lets-talk-btn:active {
   background-color: yellow;
 }
-.lets-talk-btn-text {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 36px;
-  color: #000000;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
+
 /* Main part */
 
 /* Hero section */
@@ -125,48 +128,42 @@ h3 {
   margin-top: 48px;
   margin-bottom: 102px;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
-  /* cursor: */
 }
 /* Hero header */
 .hero-header-text {
-  font-style: normal;
   font-weight: 600;
   font-size: 64px;
-  line-height: 80px;
+  line-height: 1.25;
   color: #000000;
   margin-bottom: 40px;
 }
 /* Hero text */
 .hero-main-text {
-  font-style: normal;
-  font-weight: 400;
   font-size: 24px;
-  line-height: 36px;
+  line-height: 1.5;
   color: #8f95a5;
 }
 /* Get started button */
 .get-started-btn {
+  margin-top: 60px;
   background: #263238;
   border-radius: 15px;
-  padding: 32px 118px;
-  margin-top: 60px;
+  padding: 32px 117px;
+  border: none;
+  width: 438px;
+  max-height: 118px;
+  font-family: inherit;
+  font-size: 36px;
+  line-height: 1.5;
+  color: #ffffff;
   cursor: pointer;
 }
-.get-started-btn:hover {
-  background-color: lightskyblue;
-}
+.get-started-btn:hover,
 .get-started-btn:focus {
-  background-color: lightskyblue;
+  background-color: var(--accent-color);
 }
-.get-started-btn-text {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 36px;
-  line-height: 54px;
-  color: #ffffff;
-}
+
 /* Skills section */
 .skills-header {
   text-align: center;
